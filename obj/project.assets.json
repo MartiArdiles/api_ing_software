@@ -203,19 +203,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\martina.ardiles\\.nuget\\packages\\": {}
+    "C:\\Users\\Marana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\martina.ardiles\\Desktop\\Insti\\proyecto_ing_software\\api_ing_software\\api_ing_software.csproj",
+      "projectUniqueName": "C:\\Users\\Marana\\api_ing_software\\api_ing_software.csproj",
       "projectName": "api_ing_software",
-      "projectPath": "C:\\Users\\martina.ardiles\\Desktop\\Insti\\proyecto_ing_software\\api_ing_software\\api_ing_software.csproj",
-      "packagesPath": "C:\\Users\\martina.ardiles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\martina.ardiles\\Desktop\\Insti\\proyecto_ing_software\\api_ing_software\\obj\\",
+      "projectPath": "C:\\Users\\Marana\\api_ing_software\\api_ing_software.csproj",
+      "packagesPath": "C:\\Users\\Marana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Marana\\api_ing_software\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\martina.ardiles\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Marana\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -258,24 +258,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -284,7 +266,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.319\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
