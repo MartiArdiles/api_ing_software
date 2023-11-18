@@ -1,4 +1,4 @@
-namespace Entidades
+namespace Productos
 {
     public class Producto
     {

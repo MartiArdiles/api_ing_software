@@ -1,4 +1,4 @@
-namespace Entidades
+namespace Personas
 {
    public class Persona 
    {  
@@ -21,5 +21,9 @@ namespace Entidades
          get;
          set;
       }  
+      public string Contraseña{
+         get;
+         set;
+      }
    }
 }

@@ -1,4 +1,4 @@
-namespace Entidades
+namespace Choris
 {
     public class Chori
     {

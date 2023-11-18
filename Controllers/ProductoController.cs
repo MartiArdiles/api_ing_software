@@ -5,9 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.Extensions.Logging;
-using Entidades;
-
-//namespace api_ing_software.Controllers{}
+using Productos;
 
 [ApiController]
 [Route("[controller]")]
@@ -24,8 +22,6 @@ public class ProductoController : ControllerBase
     public Producto Get()
     {
         Producto producto = new Producto();
-        //chori.SumarizarChori();
-
         return producto; 
     }
 }

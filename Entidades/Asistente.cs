@@ -1,8 +1,8 @@
-namespace Entidades
+namespace Asistentes
 {
    public class Asistente 
    {  
-      public int IDChorifest //esto es una property
+      public int IDChorifest
       {
          get; 
          set;

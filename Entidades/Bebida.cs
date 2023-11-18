@@ -1,4 +1,4 @@
-namespace Entidades
+namespace Bebiidas
 {
     public class Bebida
     {

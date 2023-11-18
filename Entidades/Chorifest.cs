@@ -2,7 +2,7 @@ using System;
 using System.Runtime.Serialization;
 using Microsoft.VisualBasic;
 
-namespace Entidades
+namespace Chorifests
 {
     public class Chorifest
     {
