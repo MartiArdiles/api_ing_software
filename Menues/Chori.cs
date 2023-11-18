@@ -1,4 +1,4 @@
-namespace Choris
+namespace Menues
 {
     public class Chori
     {
@@ -14,12 +14,16 @@ namespace Choris
          get;
          set;
       }
+      public int Cantidad{
+         get;
+         set;
+      }
 
-      public int choriComun{
-         get; 
+      private int choriComun{
+        get; 
         set;
       }
-      public int choriVegano{
+      private int choriVegano{
         get; 
         set;
       }

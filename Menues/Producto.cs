@@ -1,8 +1,8 @@
-namespace Bebiidas
+namespace Menues //usado para materia prima de cada cosa
 {
-    public class Bebida
+    public class Producto
     {
-        public string Nombre{
+        public string Id{
             get;
             set;
         }
@@ -10,7 +10,7 @@ namespace Bebiidas
             get;
             set;
         }
-        public float Precio{
+        public string Nombre{
             get;
             set;
         }

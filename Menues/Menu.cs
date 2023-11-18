@@ -1,8 +1,8 @@
-namespace Productos
+namespace Menues //usado para materia prima de cada cosa
 {
-    public class Producto
+    public class Menu
     {
-        public string Id{
+        public int Id{
             get;
             set;
         }
@@ -10,7 +10,7 @@ namespace Productos
             get;
             set;
         }
-        public string Nombre{
+        public string Extra{
             get;
             set;
         }
