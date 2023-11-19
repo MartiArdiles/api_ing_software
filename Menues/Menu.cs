@@ -6,11 +6,11 @@ namespace Menues
             get;
             set;
         }
-        public string Descripcion{
+        public bool TieneExtra{
             get;
             set;
         }
-        public bool TieneExtra{
+        public int EsVegano{
             get;
             set;
         }
