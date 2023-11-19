@@ -1,3 +1,5 @@
+using Asistentes;
+
 namespace Personas
 {
    public class Persona 
@@ -21,13 +23,29 @@ namespace Personas
          get;
          set;
       }  
-      public string Contraseña{
+
+      public string NombreCompleto{
+         get
+         {
+            return this.Nombre + " " + this.Apellido;
+         }
+      }
+      private string Contraseña{
          get;
          set;
       }
       private bool EsAdmin{
         get;
         set;
+      }
+
+      public Asistente Asistente{
+         get;
+         set;
+      }
+      public Admin admin{
+         get;
+         set;
       }
    }
 }

@@ -35,7 +35,7 @@ public class AsistenteController : ControllerBase
         asistente.Asistio = true;
         asistente.IDChorifest = 1;
         asistente.Pagado = true;
-        asistente.Descripcion = persona.Nombre + " " + persona.Apellido + " - " + (asistente.Pagado ? "Pagado" : "No pagado");
+        asistente.Descripcion = persona.NombreCompleto + " - " + (asistente.Pagado ? "Pagado" : "No pagado");
         
         return asistente; 
     }

@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.Extensions.Logging;
 using Menues;
 using Personas;
-using Asistentes;
 
 //namespace api_ing_software.Controllers{}
 
@@ -24,14 +23,7 @@ public class PersonaController : ControllerBase
 
     [HttpGet(Name = "GetPersona")]
     public Persona Get()
-    {
-        Asistente asistente = new Asistente();
-        
-        asistente.Asistio = true;
-        asistente.IDAsistente = 1;
-        asistente.IDChorifest = 1;
-        asistente.Pagado = true;
-        
+    {        
         Persona persona = new Persona(); 
                                          
         persona.IDPersona = 1;
@@ -39,6 +31,6 @@ public class PersonaController : ControllerBase
         persona.Nombre = "Martina";
         persona.Apellido = "Ardiles";
 
-        return persona; 
+        return persona;
     }
 }

@@ -14,5 +14,9 @@ namespace Menues //usado para materia prima de cada cosa
             get;
             set;
         }
+        public float Precio{
+            get;
+            set;
+        }
     }
 }
