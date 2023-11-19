@@ -18,5 +18,9 @@ namespace Menues
             get;
             set;
         }
+        public int ConHielo{
+            get;
+            set;
+        }
     }
 }
