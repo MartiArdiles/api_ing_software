@@ -34,9 +34,7 @@ public class MenuController : ControllerBase
         Menu menu = new Menu();
         menu.Descripcion = chori.Descripcion + " " + bebida.Descripcion + " : $" + (chori.Precio + bebida.Precio);
         menu.Id = 1;
-        menu.Extra = "Nada";
+        menu.Extra = "Papas";
         return menu; 
     }
-
-
 }

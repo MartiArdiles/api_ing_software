@@ -1,8 +1,8 @@
 namespace Personas
 {
-   public class Persona 
+   public class Admin 
    {  
-      public int IDPersona//esto es una property
+      public int IDPersona
       {
          get; 
          set;
@@ -25,9 +25,6 @@ namespace Personas
          get;
          set;
       }
-      private bool EsAdmin{
-        get;
-        set;
-      }
+      
    }
 }

@@ -20,6 +20,10 @@ namespace Asistentes
       public bool Pagado{
          get;
          set;
-      }  
+      } 
+      public string Descripcion{
+         get;
+         set;
+      } 
    }
 }

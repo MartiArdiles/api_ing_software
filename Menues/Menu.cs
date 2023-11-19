@@ -1,4 +1,4 @@
-namespace Menues //usado para materia prima de cada cosa
+namespace Menues 
 {
     public class Menu
     {
