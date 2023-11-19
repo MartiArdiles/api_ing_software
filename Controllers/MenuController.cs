@@ -19,7 +19,7 @@ public class MenuController : ControllerBase
     }
 
     [HttpGet(Name = "GetMenu")]
-    public Menu Get()
+    public List<Menu> Get()
     {
         Bebida bebida = new Bebida();
         bebida.Nombre = "Coca";
@@ -31,10 +31,16 @@ public class MenuController : ControllerBase
         chori.Descripcion = "Chori Comun";
         chori.Precio = 1000;
         chori.Cantidad = 1;
+        
+
+        List<Menu> menus = new List<Menu>{};
         Menu menu = new Menu();
-        menu.Descripcion = chori.Descripcion + " " + bebida.Descripcion + " : $" + (chori.Precio + bebida.Precio);
-        menu.Id = 1;
-        menu.Extra = "Papas";
-        return menu; 
+        menu.TieneExtra = true;
+        menu.Descripcion = chori.Descripcion + " " + bebida.Descripcion + " : $" + (chori.Precio + bebida.Precio) + " " + (menu.TieneExtra ? "Con papas" : "");
+        menu.Id = 1;       
+
+        menus.Add(menu);
+
+        return menus;
     }
 }

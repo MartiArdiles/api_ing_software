@@ -10,7 +10,7 @@ namespace Menues
             get;
             set;
         }
-        public string Extra{
+        public bool TieneExtra{
             get;
             set;
         }
