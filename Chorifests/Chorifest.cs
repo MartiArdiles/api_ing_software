@@ -6,6 +6,9 @@ namespace Chorifests
 {
     public class Chorifest
     {
+        public int IDChorifest{
+            get; set;
+        }
         public string Titulo{
             get;
             set;
