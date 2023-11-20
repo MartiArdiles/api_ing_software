@@ -2,6 +2,10 @@ namespace Menues
 {
     public class Bebida
     {
+        public int IdBebida{
+            get;
+            set;
+        }
         public string Nombre{
             get;
             set;
@@ -18,7 +22,7 @@ namespace Menues
             get;
             set;
         }
-        public int ConHielo{
+        public bool ConHielo{
             get;
             set;
         }

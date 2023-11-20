@@ -2,7 +2,11 @@ namespace Menues
 {
     public class Chori
     {
-      public int EsVegano{
+      public int IdChori{
+         get; 
+         set;
+      }
+      public bool EsVegano{
          get; 
          set;
       }
@@ -19,6 +23,11 @@ namespace Menues
          set;
       }
 
+      public bool ConPapas{
+         get;
+         set;
+      }
+
       private int choriComun{
         get; 
         set;
@@ -31,7 +40,7 @@ namespace Menues
        
       public void SumarizarChori(){
 
-         if(this.EsVegano == 1){
+         if(this.EsVegano){
             choriVegano += 1;
          }
          else

@@ -2,7 +2,7 @@ namespace Menues //usado para materia prima de cada cosa
 {
     public class Producto
     {
-        public string Id{
+        public string IdProducto{
             get;
             set;
         }

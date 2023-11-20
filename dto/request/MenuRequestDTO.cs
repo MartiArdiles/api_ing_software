@@ -2,6 +2,6 @@ namespace dto.request
 {
     public class MenuRequestDTO
     {
-        public int EsVegano{get; set;}
+        public bool EsVegano{get; set;}
     }
 }
