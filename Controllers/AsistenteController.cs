@@ -24,18 +24,15 @@ public class AsistenteController : ControllerBase
     public Asistente Get()
     {
         Persona persona = new Persona();
-        persona.IDPersona = 1;
-        persona.Email = "marti.ardiles@gmail.com";
-        persona.Nombre = "Martina";
-        persona.Apellido = "Ardiles";
-
         Asistente asistente = new Asistente(); 
                                         
         asistente.IDAsistente = 1;
         asistente.Asistio = true;
         asistente.IDChorifest = 1;
         asistente.Pagado = true;
-        asistente.Descripcion = persona.NombreCompleto + " - " + (asistente.Pagado ? "Pagado" : "No pagado");
+        asistente.Nombre = "Martina";
+        asistente.Apellido = "Ardiles";
+        asistente.Descripcion = asistente.NombreCompleto + " - " + (asistente.Pagado ? "Pagado" : "No pagado");
         
         return asistente; 
     }

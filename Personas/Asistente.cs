@@ -1,6 +1,8 @@
+using Personas;
+
 namespace Asistentes
 {
-   public class Asistente 
+   public class Asistente : Persona
    {  
       public int IDChorifest
       {

@@ -21,7 +21,7 @@ namespace Personas
          get;
          set;
       }  
-      private string contraseña{
+      public string Contraseña{
          get;
          set;
       }
